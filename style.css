@@ -6,6 +6,7 @@
     box-sizing: border-box;
 }
 body{
+    height: 100vh;
     background: #02442b;
 }
 .container{
@@ -15,11 +16,13 @@ body{
     background: white;
     border-radius: 10px;
     min-width: 450px;
+    position: absolute;
     min-height: 100px;
     transform: translate(-50%,-50%);
 }
 
 .newtask{
+    position: relative;
     padding: 30px 20px;
 }
 .newtask input{
@@ -41,6 +44,7 @@ body{
 }
 
 .newtask button{
+    position: relative;
     float: right;
     font-weight: 500;
     font-size: 16px;
